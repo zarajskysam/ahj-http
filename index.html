@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>http</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="btn addTicketPopup">Добавить тиккет</button>
+        <div class="ticketList">
+            <ul class="ticketListCont">
+                <!-- <li class="ticketListItem">
+                    <input type="checkbox" class="" id="0">
+                    <label for="0"></label>
+                    <div class="ticketListShortDisc">Сделать домашнюю работу</div>
+                    <div class="ticketListDate">15.12.2020</div>
+                    <div class="ticketListBtnCont">
+                        <div class="ticketListBtn ticketListRedact">&#9998</div>
+                        <div class="ticketListBtn ticketListDelete">&#9747</div>
+                    </div>
+                </li>
+                <div class="ticketListDicription">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum hic aspernatur iste placeat ab dolores dolore maxime, omnis libero quisquam quibusdam dolorum, illo consequuntur doloremque debitis dicta laudantium incidunt excepturi veritatis, nobis reiciendis nisi accusamus. Sint voluptates perferendis consequuntur esse porro omnis quod voluptatibus doloribus laudantium impedit ad fugit, minima vero illo nobis, ullam aut debitis doloremque, atque vitae minus reprehenderit rerum! Eveniet magnam perspiciatis minus autem, deserunt soluta exercitationem temporibus eum id accusantium, iusto aut possimus fugit consectetur corporis? Perspiciatis magnam maiores nostrum eligendi aliquid iure earum cupiditate laboriosam repudiandae et voluptas repellendus soluta molestiae quos voluptatem, quia inventore.
+                </div>
+                <li class="ticketListItem">
+                    
+                    <input type="checkbox" class="ticketListBtn ticketListCheckbox" id="1">
+                    <label for="1"></label>
+                    <div class="ticketListShortDisc">Купить жене сапоги</div>
+                    <div class="ticketListDate">15.12.2020</div>
+                    <div class="ticketListBtnCont">
+                        <div class="ticketListBtn ticketListRedact">&#9998</div>
+                        <div class="ticketListBtn ticketListDelete">&#9747</div>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="popup popupAddTicket hide">
+        <form action="#" class="popupAddTicketForm">
+            <h3>Добавить тиккет</h3>
+            <label for="shortDisc">Краткое описание</label>
+            <input type="text" id="shortDisc">
+            <label for="longDisc">Полное описание</label>
+            <textarea id="longDisc" rows="5"></textarea>          
+            <div class="popupAddTicketBtn">
+                <button class="btn closeAddTicketPopup">Отмена</button>
+                <button class="btn addTicket">OK</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <div class="popup popupDeleteTicket hide">
+        <form action="#" class="popupAddTicketForm">
+            <h3>Удалить тиккет</h3>
+            <p>вы уверены, что хотите удалить тиккет?<br>Это действие необратимо!</p>
+            <div class="popupDeleteTicketBtn">
+                <button class="btn closeDeleteTicketPopup">Отмена</button>
+                <button class="btn deleteTicket">OK</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="popup popupEditTicket hide">
+        <form action="#" class="popupAddTicketForm">
+            <h3>Добавить тиккет</h3>
+            <label for="shortDiscEdit">Краткое описание</label>
+            <input type="text" id="shortDiscEdit">
+            <label for="longDiscEdit">Полное описание</label>
+            <textarea id="longDiscEdit" rows="5"></textarea>          
+            <div class="popupAddTicketBtn">
+                <button class="btn closeEditTicketPopup">Отмена</button>
+                <button class="btn editTicket">OK</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
